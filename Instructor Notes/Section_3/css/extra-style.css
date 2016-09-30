@@ -1,0 +1,173 @@
+/*
+Typography Styles
+*/
+h1 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: rgba(0,0,0,0.65);
+    font-family: sans-serif;
+    font-size: 34px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+img {
+    display: block;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/*
+Wrapper Styles
+*/
+.wrapper {
+    background-color: rgba(0,0,0,0.03);
+    height: auto;
+    margin: 0px auto;
+    padding: 15px 35px;
+    width: 775px;
+}
+
+/*
+Header Styles
+*/
+.header {
+    background-color: #41a4f4;
+    height: auto;
+    width: 100%;
+}
+.header .wrapper {
+    background-color: #1d87e4;
+    padding: 50px 35px;
+}
+.header h1{
+    margin: 45px 0 0;
+}
+.header p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100;
+    margin: 20px auto 30px;
+    max-width: 650px;
+    text-align: center;
+}
+.profile-img {
+    background: url('../imgs/profile.jpg') center no-repeat;
+    border: 10px solid #fff;
+    /*
+    'border-radius' allows you to smooth out
+    shrap edges on DOM elements to images
+    */
+    border-radius: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+    width: 200px;
+
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.profile-img:hover{
+    /*
+    'box-shadow' allows you to give some depth
+    to our web page
+    */
+    box-shadow: 0px 5px 10px rgba(10, 99, 165, 0.75);
+}
+
+/*
+Section Styles
+*/
+.section {
+    border-radius: 5px;
+    height: auto;
+    margin: 30px auto;
+    padding: 15px 35px;
+    width: 645px;
+}
+
+/*
+My Work Styles
+*/
+.my-work li {
+    display: inline-block;
+    margin: 0 0 25px;
+}
+.my-work img {
+    border-radius: 5px;
+    margin: 0 0 10px;
+}
+
+/*
+Contact Me Styles
+*/
+.contact-me {
+    padding-top: 0;
+}
+.contact-me h2 {
+    text-align: center;
+}
+.contact-me ul {
+    margin: 0 auto;
+    width: 160px;
+}
+.contact-me li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+i.fa {
+    font-size: 32px
+}
+a {
+    color: #41a4f4;
+    text-decoration: none;
+
+    -webkit-transition: color 200ms ease-in-out;
+    -moz-transition: color 200ms ease-in-out;
+    -ms-transition: color 200ms ease-in-out;
+    -o-transition: color 200ms ease-in-out;
+    transition: color 200ms ease-in-out;
+}
+a:hover {
+    color: #1d87e4;
+
+}
+
+/*
+Footer Styles
+*/
+.footer {
+    background-color: #41a4f4;
+    width: 100%;
+}
+.footer .wrapper {
+    background-color: #1d87e4;
+    padding: 0px 35px;
+}
+.footer .section{
+    padding: 0;
+    margin: 0 auto;
+}
+.footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0;
+    text-align: center;
+}

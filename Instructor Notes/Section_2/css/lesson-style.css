@@ -1,0 +1,211 @@
+/*
+Section_2/section_F
+*/
+body {
+    background: #ffffff;
+}
+
+
+/*
+Section_2/section_G
+*/
+h1 {
+    color: #41a4f4;
+}
+h2 {
+    color: #000000;
+}
+p {
+    color: #000000;
+}
+li {
+    color: #000000;
+}
+a {
+    color: #41a4f4;
+}
+
+
+/*
+Section_2/section_H
+*/
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 34px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+li {
+    font-size: 20px;
+}
+
+
+/*
+Section_2/section_I
+*/
+.header {
+    background-color: #41a4f4;
+}
+.footer {
+    background-color: #41a4f4;
+}
+
+
+
+
+
+/*
+Section_2/section_J
+*/
+.header p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 100;
+}
+.footer p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0;
+}
+
+
+
+
+/*
+Section_2/section_K
+*/
+.header {
+    height: auto;
+    width: 100%;
+}
+.section {
+    height: auto;
+    width: 645px;
+}
+.my-work li {
+    display: inline-block;
+}
+img {
+    display: block;
+}
+.footer {
+    width: 100%;
+}
+
+
+/*
+Section_2/section_L
+*/
+a:hover {
+    color: #1d87e4;
+}
+a:visited {
+    color: #0c46a0;
+}
+a:active {
+    color: #0c46a0;
+}
+
+
+
+/*
+Section_2/section_M
+*/
+ul {
+    padding: 0;
+}
+li {
+    margin: 15px 0;
+}
+.wrapper {
+    height: auto;
+    margin: 0px auto;
+    padding: 15px 35px;
+    width: 775px;
+}
+.section {
+    margin: 30px auto;
+    padding: 15px 35px;
+}
+.header .wrapper {
+    padding: 50px 35px;
+}
+.header .section {
+    padding: 0px 35px 0px 35px;
+}
+.header h1{
+    margin: 45px 0 0;
+}
+.header p {
+    margin: 20px auto 30px auto;
+}
+.my-work li {
+    margin: 0 0 25px 0;
+}
+.my-work img {
+    margin: 0px 0px 10px;
+}
+.contact-me{
+    padding-top: 0;
+}
+.footer .wrapper {
+    padding: 0px 35px;
+}
+.footer .section{
+    padding: 0;
+    margin: 0 auto;
+}
+.footer p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+/*
+Section_2/Extras
+*/
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.section {
+    border-radius: 5px;
+}
+.header p {
+    max-width: 650px;
+}
+.profile-img {
+    background-image: url('../imgs/profile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /*
+    You can bake all of the above 'background'
+    properties into a single declaration...
+    */
+    /*background: url('../imgs/profile.jpg') center no-repeat;*/
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 10px;
+    /*
+    You can bake all of the above 'border'
+    properties into a single declaration...
+    */
+    /*border: 10px solid #ffffff;*/
+    height: 200px;
+    padding: 0;
+    width: 200px;
+}
