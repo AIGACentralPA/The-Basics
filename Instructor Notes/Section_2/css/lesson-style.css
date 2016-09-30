@@ -135,6 +135,9 @@ li {
     margin: 30px auto;
     padding: 15px 35px;
 }
+.header img{
+    border: 10px solid #ffffff;
+}
 .header .wrapper {
     padding: 50px 35px;
 }
