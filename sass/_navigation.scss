@@ -1,0 +1,82 @@
+.nav {
+    background-color: $color__primary-dark;
+    overflow: hidden;
+}
+
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    transition: $transition;
+    @include breakpoint(medium) {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &.menu--is-open {
+        visibility: visible;
+
+        opacity: 1;
+        @include breakpoint(medium) {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}
+
+.menu__item {}
+
+.menu__link {
+    transition: $transition;
+    display: block;
+    padding: $size__unit*.66 $size__unit;
+    color: #fff;
+    text-decoration: none;
+    line-height: 0;
+    padding: 0 $size__unit;
+    @include breakpoint(medium) {
+        line-height: 1em;
+        padding: $size__unit;
+    }
+
+    &:hover {
+        background-color: $color__primary-darker;
+    }
+}
+
+.menu--is-open {
+    .menu__link {
+        line-height: 1em;
+        padding: $size__unit;
+    }
+}
+
+.menu__toggle {
+    display: inline-block;
+    padding: 0.75em;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover {
+        background-color: $color__primary-darker;
+    }
+    @include breakpoint(medium) {
+        display: none;
+    };
+
+    &:active,
+    &:focus,
+    &:hover,
+    &:visited {
+        color: #fff;
+    }
+}
+
+.menu__icon {
+    display: inline-block;
+    transform: scale(1.25);
+    transform-origin: 50% 65%;
+}

@@ -1,0 +1,13 @@
+.article {
+    padding: $size__unit;
+    background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.1);
+    margin-bottom: $size__unit*2;
+    @include breakpoint(small) {
+        padding: $size__unit*2;
+    }
+    @include breakpoint(medium) {
+        padding: $size__unit*3;
+        margin-bottom: $size__unit*3;
+    }
+}

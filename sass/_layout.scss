@@ -1,0 +1,9 @@
+.wrapper {
+    width: 100%;
+    max-width: $site-width;
+    margin: 0 auto;
+    padding: 0 $size__unit;
+    @include breakpoint(small) {
+        padding: 0 $size__unit*2;
+    };
+}

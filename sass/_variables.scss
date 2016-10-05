@@ -1,0 +1,22 @@
+$site-width: 992px;
+$size__unit: 15px;
+
+$color__primary: #2196F3;
+$color__primary-light: #64B5F6;
+$color__primary-dark: #1976D2;
+$color__primary-darker: darken(#1976D2,5%);
+
+$color__secondary: lightgreen;
+
+$small: 480px;
+$medium: 768px;
+$large: 992px;
+
+$font__primary: 'Open Sans', 'Helvetica', Helvetica, Arial, sans-serif;
+$font__secondary: 'Roboto Slab', 'Helvetica', Helvetica, Arial, sans-serif;
+
+$transition: 0.2s ease all;
+
+.no-wrap {
+    white-space: nowrap;
+}

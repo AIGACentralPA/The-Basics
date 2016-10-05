@@ -1,0 +1,30 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.content {
+    padding-top: $size__unit*2;
+    position: relative;
+    @include breakpoint(small) {
+        padding-top: $size__unit*3;
+    };
+    @include breakpoint(medium) {
+        padding-top: $size__unit*4;
+    };
+    @include breakpoint(large) {
+        padding-top: $size__unit*4;
+    };
+
+    &:before {
+        content: '';
+        display: block;
+        z-index: -1;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 150px;
+        background-color: $color__primary;
+    }
+}
