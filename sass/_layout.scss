@@ -5,5 +5,13 @@
     padding: 0 $size__unit;
     @include breakpoint(small) {
         padding: 0 $size__unit*2;
-    };
+    }
+}
+
+.main {
+    @include breakpoint(medium) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }

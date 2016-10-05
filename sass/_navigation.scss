@@ -33,10 +33,17 @@
     color: #fff;
     text-decoration: none;
     line-height: 0;
-    padding: 0 $size__unit;
+    padding: 0 8px;
+    font-size: 1em;
     @include breakpoint(medium) {
+        padding: $size__unit 8px;
+        font-size: 0.9em;
         line-height: 1em;
-        padding: $size__unit;
+        display: inline-block;
+    }
+    @include breakpoint(large) {
+        font-size: 1em;
+        padding: $size__unit 10px;
     }
 
     &:hover {
@@ -48,6 +55,15 @@
     .menu__link {
         line-height: 1em;
         padding: $size__unit;
+        @include breakpoint(small) {
+            line-height: 1em;
+            padding: $size__unit;
+            font-size: 0.9em;
+        }
+        @include breakpoint(large) {
+            font-size: 1em;
+            padding: $size__unit 10px;
+        }
     }
 }
 
